@@ -21,8 +21,10 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+const siteUrl = process.env.URL || process.env.NEXT_PUBLIC_SITE_URL || "https://tehlilkhan.netlify.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tehlilkhan.com"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Tehlil Khan | AI-First Product Engineer",
     template: "%s | Tehlil Khan",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
     "Machine Learning",
     "Next.js Developer"
   ],
-  authors: [{ name: "Tehlil Khan", url: "https://tehlilkhan.com" }],
+  authors: [{ name: "Tehlil Khan", url: siteUrl }],
   creator: "Tehlil Khan",
   icons: {
     icon: "/logo.png",
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tehlil Khan | AI-First Product Engineer",
     description: "Building intelligent systems for scalable businesses. Bridging engineering, AI systems, and operations.",
-    url: "https://tehlilkhan.com",
+    url: siteUrl,
     siteName: "Tehlil Khan Portfolio",
     images: [
       {
