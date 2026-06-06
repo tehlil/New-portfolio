@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Systems I've Built | Tehlil Khan",
@@ -16,6 +17,7 @@ export default function SystemsPage() {
     },
     {
       title: "Clinical Risk Prediction Engine",
+      url: "https://clinical-prediction-engine-1.onrender.com",
       problem: "Late identification of high-risk patients leading to preventable readmissions.",
       approach: "Developed an ML pipeline processing real-time EHR data to flag at-risk patients 48 hours earlier.",
       techStack: ["PyTorch", "FastAPI", "AWS", "React"],
@@ -49,7 +51,23 @@ export default function SystemsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {systems.map((system, i) => (
           <div key={i} className="flex flex-col rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)]/50 p-8 backdrop-blur-sm hover:border-[var(--color-text-glow-primary)] transition-colors group">
-            <h2 className="text-2xl font-semibold mb-6 group-hover:text-[var(--color-text-glow-primary)] transition-colors">{system.title}</h2>
+            <div className="flex items-start justify-between mb-6">
+              <h2 className="text-2xl font-semibold group-hover:text-[var(--color-text-glow-primary)] transition-colors">
+                {system.url ? (
+                  <a
+                    href={system.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 hover:underline"
+                  >
+                    {system.title}
+                    <ArrowUpRight className="w-5 h-5 text-neutral-400 group-hover:text-[var(--color-text-glow-primary)] transition-colors" />
+                  </a>
+                ) : (
+                  system.title
+                )}
+              </h2>
+            </div>
             
             <div className="space-y-4 flex-grow">
               <div>
@@ -65,8 +83,8 @@ export default function SystemsPage() {
                 <div className="flex flex-wrap gap-2 mt-2">
                   {system.techStack.map((tech) => (
                     <span key={tech} className="px-3 py-1 text-xs rounded-full border border-[var(--color-border)] bg-[var(--color-background)]">
-                      {tech}
-                    </span>
+                      {tech
+                    }</span>
                   ))}
                 </div>
               </div>
