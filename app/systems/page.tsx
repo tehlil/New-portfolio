@@ -17,7 +17,7 @@ export default function SystemsPage() {
     },
     {
       title: "Clinical Risk Prediction Engine",
-      url: "https://clinical-prediction-engine-1.onrender.com",
+      url: "https://clinical-prediction-engine.vercel.app",
       problem: "Late identification of high-risk patients leading to preventable readmissions.",
       approach: "Developed an ML pipeline processing real-time EHR data to flag at-risk patients 48 hours earlier.",
       techStack: ["PyTorch", "FastAPI", "AWS", "React"],

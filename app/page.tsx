@@ -37,7 +37,7 @@ const projects: Project[] = [
   },
   {
     title: "Clinical Prediction Engine",
-    url: "https://clinical-prediction-engine-1.onrender.com",
+    url: "https://clinical-prediction-engine.vercel.app",
     description: "An AI-powered healthcare analytics dashboard predicting clinical patient lengths of stay, risk profiles, and resource optimization via XGBoost ML pipelines.",
     iconName: "HeartPulse",
     techTags: ["Python", "FastAPI", "XGBoost", "React"],
