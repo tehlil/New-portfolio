@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function CTA() {
   return (
     <section className="relative overflow-hidden py-28">
       {/* Background Glow */}
 
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-cyan-500/5 to-transparent" />
 
       <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[140px]" />
 
@@ -79,7 +80,7 @@ export default function CTA() {
                 target="_blank"
                 className="mt-3 flex items-center gap-3 text-lg text-white hover:text-cyan-400"
               >
-                <Github size={18} />
+                <FaGithub size={18} />
                 github.com/tehlil
               </a>
             </div>
@@ -94,7 +95,7 @@ export default function CTA() {
                 target="_blank"
                 className="mt-3 flex items-center gap-3 text-lg text-white hover:text-cyan-400"
               >
-                <Linkedin size={18} />
+                <FaLinkedin size={18} />
                 linkedin.com/in/tehlilkhan123
               </a>
             </div>
