@@ -39,7 +39,7 @@ export default function AppointmentSchedulingPage() {
 
       <section>
         <img
-          src="/images/projects/appoitment-schedule.png"
+          src="/images/projects/appointment-schedule.png"
           alt="Appointment Scheduling Dashboard"
           className="rounded-2xl border"
         />
