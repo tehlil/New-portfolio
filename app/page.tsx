@@ -353,9 +353,12 @@
 // }
 
 import Architecture from "./components/home/Architecture";
+import CapabilityGrid from "./components/home/CapabilityGrid";
+import CTA from "./components/home/CTA";
 import FeaturedSystems from "./components/home/FeaturedSystems";
 import Hero from "./components/home/Hero";
 import StatsGrid from "./components/home/StatsGrid";
+import Terminal from "./components/home/Terminal";
 
 export default function Home() {
   return (
@@ -364,6 +367,9 @@ export default function Home() {
       <StatsGrid />
       <Architecture />
       <FeaturedSystems />
+      <CapabilityGrid />
+      <Terminal />
+      <CTA />
     </>
   );
 }

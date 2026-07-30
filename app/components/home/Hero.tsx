@@ -127,7 +127,7 @@ export default function Hero() {
 
         <h1 className="mt-8 max-w-5xl text-5xl font-bold leading-tight tracking-tight text-white md:text-7xl">
           Building
-          <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
             {" "}
             Intelligent Systems
           </span>

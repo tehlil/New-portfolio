@@ -101,7 +101,7 @@ export default function FeaturedSystems() {
               {/* Gradient Background */}
 
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${system.color} opacity-30`}
+                className={`absolute inset-0 bg-linear-to-br ${system.color} opacity-30`}
               />
 
               <div className="relative">

@@ -25,7 +25,7 @@ export default function CareerOSPage() {
 
       <section>
         <img
-          src="/images/careeros-ai.png"
+          src="/images/projects/careeros.png"
           alt="CareerOS Workflow"
           className="rounded-2xl border"
         />

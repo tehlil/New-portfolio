@@ -42,7 +42,7 @@ export default function QuantForgePage() {
       {/* Screenshot */}
       <section>
         <img
-          src="/images/quantforge-dashboard.png"
+          src="/images/projects/quantforge.png"
           alt="QuantForge Dashboard"
           className="rounded-2xl border border-neutral-800"
         />

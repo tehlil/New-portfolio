@@ -25,7 +25,7 @@ export default function LeadAutomationPage() {
 
       <section>
         <img
-          src="/images/lead-automation.png"
+          src="/images/projects/careeros.png"
           alt="Lead Automation Workflow"
           className="rounded-2xl border"
         />

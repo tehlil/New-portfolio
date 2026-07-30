@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.URL || process.env.NEXT_PUBLIC_SITE_URL || "https://tehlilkhan.netlify.app";
+  const baseUrl =
+    process.env.URL ||
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://tehlil-portfolio.vercel.app/";
 
   const routes = [
     "",

@@ -288,7 +288,7 @@ export default function PulseFlowPage() {
 
       <section className="mb-24">
         <Image
-          src="/images/pulseflow-dashboard.png"
+          src="/images/projects/pulseflow.png"
           alt="PulseFlow Dashboard"
           width={1600}
           height={900}
