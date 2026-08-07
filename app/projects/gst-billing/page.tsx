@@ -4,7 +4,7 @@ export default function GSTBillingPage() {
   return (
     <main className="max-w-5xl mx-auto px-6 py-16">
       <span className="inline-block px-3 py-1 rounded-full border border-emerald-500 text-emerald-400 text-sm mb-5">
-        Live Project
+        🚧 In Active Development
       </span>
 
       <h1 className="text-5xl font-bold mb-4">GST Billing System</h1>
