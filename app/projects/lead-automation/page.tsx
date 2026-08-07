@@ -14,7 +14,7 @@ export default function LeadAutomationPage() {
 
         <div className="flex gap-4 mt-8">
           <Link
-            href="https://github.com/tehlil"
+            href="https://github.com/tehlil/AI-Lead-Automation"
             target="_blank"
             className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700"
           >
@@ -25,7 +25,7 @@ export default function LeadAutomationPage() {
 
       <section>
         <img
-          src="/images/projects/careeros.png"
+          src="/images/projects/lead-automation.png"
           alt="Lead Automation Workflow"
           className="rounded-2xl border"
         />
