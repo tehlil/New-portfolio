@@ -1,36 +1,186 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Tehlil Khan Portfolio
 
-## Getting Started
+A modern AI-native developer portfolio showcasing production-grade full-stack applications, AI automation systems, and enterprise software engineering projects.
 
-First, run the development server:
+🌐 **Live Portfolio:** https://tehlil-portfolio.vercel.app/
+
+---
+
+# ✨ Overview
+
+This portfolio highlights projects focused on:
+
+- AI Automation
+- Full Stack Web Development
+- SaaS Applications
+- Backend Engineering
+- Cloud Architecture
+- Workflow Automation
+- Modern UI/UX Design
+
+Every project includes detailed technical documentation, architecture, technology stack, and implementation details.
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+
+## Backend
+
+- Node.js
+- Express.js
+- REST APIs
+
+## Databases
+
+- PostgreSQL
+- MongoDB
+- Redis
+
+## Cloud & DevOps
+
+- Docker
+- GitHub
+- Vercel
+
+## AI & Automation
+
+- OpenAI
+- DeepSeek AI
+- n8n
+- HubSpot
+- Google Sheets API
+- REST APIs
+
+---
+
+# 📂 Featured Projects
+
+## 🤖 CareerOS AI
+
+AI-powered career automation platform built with n8n and Large Language Models.
+
+**Repository**
+
+https://github.com/tehlil/CareerOS
+
+---
+
+## 🚀 AI Lead Automation
+
+Automated international lead generation and CRM enrichment workflow.
+
+**Repository**
+
+https://github.com/tehlil/AI-Lead-Automation
+
+---
+
+## 💼 GST Billing System
+
+Production-grade GST billing platform for Indian businesses.
+
+**Status**
+
+🚧 Active Development
+
+---
+
+## 🏥 Appointment Scheduling System
+
+Healthcare scheduling platform featuring secure appointment booking and patient management.
+
+---
+
+## 📈 QuantForge
+
+AI-powered financial analytics and trading platform.
+
+---
+
+# 🚀 Running Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/tehlil/New-portfolio.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+app/
+components/
+public/
+lib/
+hooks/
+styles/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 📸 Features
 
-## Deploy on Vercel
+- Responsive Design
+- Modern UI/UX
+- Dark Theme
+- Project Case Studies
+- AI Automation Showcase
+- GitHub Integration
+- Technical Documentation
+- Production Ready Architecture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📄 License & Usage
+
+© 2026 Tehlil Khan. All rights reserved.
+
+This repository is shared for **portfolio, educational, and evaluation purposes only**.
+
+The source code, UI/UX designs, documentation, architecture, workflows, screenshots, and associated materials are the intellectual property of the author.
+
+No part of this repository may be copied, modified, redistributed, sublicensed, or used in commercial products or services without prior written permission from the author.
+
+---
+
+# 👤 Author
+
+**Tehlil Khan**
+
+📧 tehlilkhan3@gmail.com
+
+🌐 Portfolio  
+https://tehlil-portfolio.vercel.app/
+
+💻 GitHub  
+https://github.com/tehlil
+
+🔗 LinkedIn  
+https://linkedin.com/in/tehlilkhan123
